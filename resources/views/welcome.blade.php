@@ -249,10 +249,40 @@
         }
 
         .project {
-            padding: 18px;
+            padding: 14px;
             border-radius: 14px;
             border: 1px solid var(--line);
             background: rgba(14, 18, 37, 0.76);
+        }
+
+        .project-thumb {
+            height: 160px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border: 1px solid var(--line);
+            display: grid;
+            place-items: center;
+            font-size: 0.8rem;
+            letter-spacing: 0.6px;
+            color: #dbe4ff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .thumb-yppit {
+            background: linear-gradient(135deg, #2a4fff, #26b6ff);
+        }
+
+        .thumb-jdih-jateng {
+            background: linear-gradient(135deg, #1f9f71, #6cdf8f);
+        }
+
+        .thumb-jdih-semarang {
+            background: linear-gradient(135deg, #b36f00, #ffc266);
+        }
+
+        .thumb-zilenial {
+            background: linear-gradient(135deg, #6c2bff, #d15dff);
         }
 
         .project h3 {
@@ -420,19 +450,24 @@
                 <h2 class="section-title">Proyek Pilihan</h2>
                 <div class="project-grid">
                     <article class="project">
-                        <h3>ERP Internal Company</h3>
-                        <p>Sistem ERP berbasis web untuk otomasi alur kerja operasional dan pelaporan manajemen.</p>
-                        <a href="#">Lihat Detail</a>
+                        <div class="project-thumb thumb-yppit">THUMBNAIL<br>SIAKAD YPPIT TEXMACO</div>
+                        <h3>Sistem Informasi Akademik YPPIT Texmaco</h3>
+                        <p>Platform akademik terintegrasi untuk pengelolaan data siswa, nilai, jadwal, absensi, dan administrasi sekolah.</p>
                     </article>
                     <article class="project">
-                        <h3>Landing Page Campaign</h3>
-                        <p>Landing page berorientasi konversi dengan desain modern, loading cepat, dan responsif penuh.</p>
-                        <a href="#">Lihat Detail</a>
+                        <div class="project-thumb thumb-jdih-jateng">THUMBNAIL<br>JDIH PROVINSI JAWA TENGAH</div>
+                        <h3>JDIH Provinsi Jawa Tengah</h3>
+                        <p>Situs dokumentasi dan pencarian produk hukum daerah Provinsi Jawa Tengah dengan struktur data yang rapi dan mudah diakses publik.</p>
                     </article>
                     <article class="project">
-                        <h3>Dashboard Monitoring</h3>
-                        <p>Dashboard analitik real-time untuk monitoring KPI bisnis dan pengambilan keputusan cepat.</p>
-                        <a href="#">Lihat Detail</a>
+                        <div class="project-thumb thumb-jdih-semarang">THUMBNAIL<br>JDIH KOTA SEMARANG</div>
+                        <h3>JDIH Kota Semarang</h3>
+                        <p>Portal layanan informasi hukum Kota Semarang untuk publikasi peraturan, keputusan, dan dokumen hukum secara digital.</p>
+                    </article>
+                    <article class="project">
+                        <div class="project-thumb thumb-zilenial">THUMBNAIL<br>ZILENIAL JATENG</div>
+                        <h3>Zilenial Jateng</h3>
+                        <p>Website program kepemudaan Jawa Tengah dengan pendekatan visual modern untuk publikasi kegiatan dan engagement komunitas.</p>
                     </article>
                 </div>
             </div>
